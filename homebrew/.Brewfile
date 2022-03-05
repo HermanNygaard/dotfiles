@@ -47,6 +47,8 @@ brew "fzf"
 brew "gifsicle"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# GNU grep, egrep and fgrep
+brew "grep"
 # Improved top (interactive process viewer)
 brew "htop"
 # Tools and libraries to manipulate images in many formats
@@ -74,7 +76,7 @@ brew "node"
 # Manage multiple Node.js versions
 brew "nvm"
 # Object-relational database system
-brew "postgresql", restart_service: true
+brew "postgresql"
 # Object-relational database system
 brew "postgresql@13"
 # Pretty, minimal and fast ZSH prompt
@@ -104,8 +106,6 @@ brew "koekeishiya/formulae/yabai"
 cask "adoptopenjdk8"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-# Automatic tiling window manager similar to xmonad
-cask "amethyst"
 cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -124,7 +124,5 @@ cask "rectangle"
 cask "spotify"
 # Open-source code editor
 cask "visual-studio-code"
-# GPU-accelerated cross-platform terminal emulator and multiplexer
-cask "wezterm"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
