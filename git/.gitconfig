@@ -1,0 +1,17 @@
+[user]
+	name = Herman Nygaard
+	email = hermany@uio.no
+	
+[core]
+    pager = delta
+
+[delta]
+    plus-style = "syntax #012800"
+    minus-style = "syntax #340001"
+    syntax-theme = Monokai Extended
+    navigate = true
+
+[interactive]
+    diffFilter = delta --color-only
+[push]
+	default = current

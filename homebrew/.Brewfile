@@ -21,6 +21,8 @@ brew "cmake"
 brew "cmatrix"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
 # Create Docker hosts locally and on cloud providers
@@ -106,6 +108,8 @@ brew "koekeishiya/formulae/yabai"
 cask "adoptopenjdk8"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# Automatic tiling window manager similar to xmonad
+cask "amethyst"
 cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -124,5 +128,7 @@ cask "rectangle"
 cask "spotify"
 # Open-source code editor
 cask "visual-studio-code"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
